@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -53,10 +54,22 @@
       </section>
    
       <section class="card" id="javascript-section">
-        <section class="card" id="javascript-section">
           <h2>JavaScript</h2>
           <ul>
-            <li>Enter your JavaScript notes here</li>
+            <li>No one uses "var", so don't use it either.</li>
+            <li><strong>const:</strong> keyword that allows you to declare a variable. This variable cannot be reassigned.</li>
+            <li><strong>let:</strong> keyword that allows you to reassign the value of a variable.</li>
+            <li>A value is considered falsy if it is one of the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false.</li>
+            <li>All other values, including a Boolean with the value of true, are considered truthy.</li>
+            <li>When the computer encounters an if statement in a JavaScript file, it will check to see if the condition that we provide is truthy. If it is, then it will do whatever action we ask it to do in between the curly brackets. If the condition isn’t true or has a value that isn’t truthy, then the computer will ignore whatever is in between the curly brackets and move on.</li>
+            <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. Developers must use another statement, such as the conditional if statement that we just learned, to interrupt the control flow by executing a block of code a specific number of times</li>
+            <li>A for loop contains the following three important statements:</li>
+              <ol>
+                <li>The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0), as shown in the following line of code: let x = 0;</li>
+                <li>The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. We use the length built-in array property on our shapes array to express that condition, as shown in the following line of code: x &lt; shapes.length;</li>
+                <li>The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1, as shown in the following line of code: x++</li>
+                <li>Final code would look like: <br /> for(let x =0; x &lt; shapes.length; x++) { <br /> // code block ex. console.log(shapes[x]);<br /> }</li>
+              </ol>
           </ul>
       </section>
     </main>
@@ -64,5 +77,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
