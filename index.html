@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -24,7 +24,8 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
         </ul>
       </section>
    
@@ -32,23 +33,23 @@
         <h2>Git</h2>
         <ul>
           <li><strong>git status:</strong> checks what branch we are currently on</li>
-    <li><strong>git checkout -b branch-name:</strong> creates a new branch and switches to it</li>
-    <li><strong>git clone:</strong> Git clone is a command for downloading existing source code from a remote repository (like Github, for example). In other words, Git clone basically makes an identical copy of the latest version of a project in a repository and saves it to your computer. This will make a copy of the project to your local workspace so you can start working with it.</li>
-    <li><strong>git branch:</strong> Creates a new branch locally <strong>(git branch "branch-name")</strong>.</li> 
-    <li><strong>git push:</strong> Pushes the branch into the remote repo. <strong>(git push -u "remote" "branch-name")</strong></li>  
-<li><strong>git branch or git branch --list</strong>: Allows you to view branches.</li>  
-<li><strong>git branch -d "branch-name"</strong>: Allows you to delete a branch.</li>  
-<li><strong>git add</strong>: Adds a single file. You can also use <strong>git add -A</strong> to add everthing at once. <strong>The git add command doesn't change the repository and the changes are not saved until we use git commit.</strong></li>
-<li><strong>git commit</strong>: Is like setting a checkpoint in the development process which you can go back to later if needed. Be sure to add a short message to explain what was developed or change with <strong>git commit -m "commit message". IMPORTANT: git commit saves your changes only locally.</strong></li>
-<li><strong>git push</strong>: Uploads your commits to the remote repository. The main way to do this is <strong>git push "remote" "branch-name"</strong>. If a new branch was created, then you have to upload the branch with the following command: <strong>git push --set-upstream "remote" "name-of-your-branch"</strong>or <strong>git push -u origin "branch_name". IMPORTANT: git push only uploads changes that are committed.</strong></li>
-<li><strong>git pull</strong>: Used to get updates from the remote repo. This command is a combination of git fetch and git merge which means that, when we use git pull, it gets the updates from remote repository (git fetch) and immediately applies the latest changes in your local (git merge). <strong>git pull "remote"</strong></li>
-<li><strong>git merge</strong>: When you're finished developing, allows you to merge the branch to the main branch. It's important to remember that you first need to be on the specific branch that you want to merge with your feature branch. An example would be as follows:</li>
-<ol>
-  <li>Switch to main branch: <strong>git checkout main</strong></li>
-  <li>Before merging, update you local main branch: <strong>git fetch</strong></li>
-  <li>Merge your feature branch into the main branch: <strong>git merge "branch-name"</strong></li>
-</ol>
-</ul>
+          <li><strong>git checkout -b branch-name:</strong> creates a new branch and switches to it</li>
+          <li><strong>git clone:</strong> Git clone is a command for downloading existing source code from a remote repository (like Github, for example). In other words, Git clone basically makes an identical copy of the latest version of a project in a repository and saves it to your computer. This will make a copy of the project to your local workspace so you can start working with it.</li>
+          <li><strong>git branch:</strong> Creates a new branch locally <strong>(git branch "branch-name")</strong>.</li> 
+          <li><strong>git push:</strong> Pushes the branch into the remote repo. <strong>(git push -u "remote" "branch-name")</strong></li>  
+          <li><strong>git branch or git branch --list</strong>: Allows you to view branches.</li>  
+          <li><strong>git branch -d "branch-name"</strong>: Allows you to delete a branch.</li>  
+          <li><strong>git add</strong>: Adds a single file. You can also use <strong>git add -A</strong> to add everthing at once. <strong>The git add command doesn't change the repository and the changes are not saved until we use git commit.</strong></li>
+          <li><strong>git commit</strong>: Is like setting a checkpoint in the development process which you can go back to later if needed. Be sure to add a short message to explain what was developed or change with <strong>git commit -m "commit message".<br /> IMPORTANT: git commit saves your changes only locally.</strong></li>
+          <li><strong>git push</strong>: Uploads your commits to the remote repository. The main way to do this is <strong>git push "remote" "branch-name"</strong>. If a new branch was created, then you have to upload the branch with the following command: <strong>git push --set-upstream "remote" "name-of-your-branch"</strong>or <strong>git push -u origin "branch_name".<br /> IMPORTANT: git push only uploads changes that are committed.</strong></li>
+          <li><strong>git pull</strong>: Used to get updates from the remote repo. This command is a combination of git fetch and git merge which means that, when we use git pull, it gets the updates from remote repository (git fetch) and immediately applies the latest changes in your local (git merge). <strong>git pull "remote"</strong></li>
+          <li><strong>git merge</strong>: When you're finished developing, allows you to merge the branch to the main branch. It's important to remember that you first need to be on the specific branch that you want to merge with your feature branch. An example would be as follows:</li>
+            <ol>
+              <li>Switch to main branch: <strong>git checkout main</strong></li>
+              <li>Before merging, update you local main branch: <strong>git fetch</strong></li>
+              <li>Merge your feature branch into the main branch: <strong>git merge "branch-name"</strong></li>
+            </ol>
+        </ul>
       </section>
    
       <section class="card" id="javascript-section">
